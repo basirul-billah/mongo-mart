@@ -16,16 +16,16 @@ const App = () => {
       <h1 className="px-4 sm:px-[5vw] lg:px-[9vw]">
         <Navbar />
         <Routes>
-          <Route to="/" element={<Home />} />
-          <Route to="/home" element={<Home />} />
-          <Route to="/about" element={<About />} />
-          <Route to="/cart" element={<Cart />} />
-          <Route to="/collection" element={<Collection />} />
-          <Route to="/contact" element={<Contact />} />
-          <Route to="/login" element={<Login />} />
-          <Route to="/orders" element={<Orders />} />
-          <Route to="/place-order" element={<PlaceOrder />} />
-          <Route to="/product/:productId" element={<Product />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/collection" element={<Collection />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/orders" element={<Orders />} />
+          <Route path="/place-order" element={<PlaceOrder />} />
+          <Route path="/product/:productId" element={<Product />} />
         </Routes>
       </h1>
     </div>
