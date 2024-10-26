@@ -62,7 +62,7 @@ const ShopContextProvider = (props) => {
         setCartItems(cartData);
     }
 
-    const getTotalAmount = async () => {
+    const getTotalAmount = () => {
         let totalAmount = 0;
         
         for(const items in cartItems) {
