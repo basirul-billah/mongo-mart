@@ -1,4 +1,4 @@
-import { express } from 'express';
+import express from 'express';
 import { listProduct, addProduct, removeProduct, singleProduct } from '../controllers/productController.js';
 import upload from '../middleware/multer.js';
 
